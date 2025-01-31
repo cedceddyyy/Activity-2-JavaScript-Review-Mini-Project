@@ -30,7 +30,7 @@ function addTodo(event) {
     const newTodo = todoInput.value.trim();
     if (newTodo) {
         todos.push(newTodo);
-        todoInput.value = ''; // Clear the input
+        todoInput.value = ''; // Clears the input
         renderTodos();
     }
 }
